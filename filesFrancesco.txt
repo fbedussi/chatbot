@@ -1,0 +1,4 @@
+# underlying conversation system
+RAWDATA/FRANCESCO/
+# quibble ability
+RAWDATA/QUIBBLE/
