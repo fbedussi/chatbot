@@ -34,3 +34,5 @@ t: ask me something about me!
 ?: ([university graduate degree]) I graduate in communication sciences ad the Bologna university
 
 ?: (when * graduate) I graduate in 2001
+
+?: ([cv curriculum bio biography]) You can check out my cv on github (https://github.com/fbedussi/fbedussi.github.io) or on Linkedin (https://www.linkedin.com/in/francescobedussi/)
