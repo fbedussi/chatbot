@@ -1,0 +1,19 @@
+topic: ~bio keep repeat [age living city old contact]
+
+t: do you want to know how old is Francesco, where he lives or how to contact him?
+    a: (~yes) Francesco was born in 1976 and lives in Bologna. You can contact him writing af francesco@francescobedussi.it
+    b: (~no) Fine, age and place are not so important in the internet age
+
+?: (where * live) Francesco lives in [Bologna] [Bologna, a town in Norther Italy]
+    
+?: AGE (old) [Francesco is 40 year old] [Francesco was born in 1976]
+
+?: ([when year] * born) ^reuse(AGE)
+
+u: (contact) You can write to Francesco at francesco@francescobedussi.it. And you can check out his profiles on Linkedin (https://www.linkedin.com/in/francescobedussi/) or Github (https://github.com/fbedussi/fbedussi.github.io). Can you give me your email address?
+    a: (_~email_url) 
+        $email = '_0 
+        '_0, I got it!
+    a: () You are a very secretive guy, aren't you?
+
+?: ([cv curriculum bio biography]) You can check out Francesco's cv on github (https://github.com/fbedussi/fbedussi.github.io) or on Linkedin (https://www.linkedin.com/in/francescobedussi/)

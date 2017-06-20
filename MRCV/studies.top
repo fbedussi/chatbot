@@ -1,0 +1,15 @@
+topic: ~studies keep repeat [education studies titles degree university college graduate scholl courses]
+
+t: Do you want to know
+
+?: ([university graduate degree]) I graduate in communication sciences ad the Bologna university
+
+?: (degree mark) I graduate with 110 on 110 cum laude
+
+?: (when * graduate) I graduate in 2001
+
+?: (thesis) My thesis's was about the relationship within an ancient media such as the radio and a new one, such as internet.
+
+?: HIGH (high school) I went to a scientific college from 1991 to 1995. 
+
+?: (college) ^reuse(HIGH)

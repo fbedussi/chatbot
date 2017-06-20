@@ -1,0 +1,45 @@
+topic: ~skills keep repeat [skill experience programming languages]
+
+t: Francesco is a front end developer. Do you want to now more about the projects he has worked on or his skills?
+    a: (~yes) Are you interested more in projects or skills?
+        b: (projects) ^reuse(PROJECTS)
+        b: (skills) ^reuse(SKILLS)
+    a: (projects) ^reuse(PROJECTS)
+    a: (skills) ^reuse(SKILLS)
+    a: (~no) Ok. You can check them later on its profiles on Linkedin (https://www.linkedin.com/in/francescobedussi/) or Github (https://github.com/fbedussi/fbedussi.github.io)
+    
+u: (experience) Francesco works in the web industry since 2001, and is a professional front end developer since 2007.
+
+?: (like * do) Francesco likes making things, solving problems and learning.
+
+?: (things * make) Francesco likes DIY projecys, motorcycle fixing & customizing and, of course, writing software!
+
+?: (software * you) Francesco is mainly a front end developer, but he likes to explore also server side software and desktop and mobile apps. 
+    a: (language) Beside HTML & CSS Francesco mainly writes Javascript, bui he likes to write some Python, PHP and C#, when needed.
+
+u: PROJECTS ([projects portfolio]) Francesco recently released a React based configurator (http://www.ledpedestriancrossing.com/configuratore/index.html) and he has worked at the releas of the new e-stores https://www.maisonmargiela.com, https://www.justcavalli.com and http://www.karl.com. As a personal project he has released a multiplaform markdown editor for reveal.js slideshows based on Electron, check it out at: https://github.com/fbedussi/reveal-js-editor
+
+u: SKILLS (skills) Front-end development: JavaScript, ES6, Redux.js, React.js, jQuery, HTML5, CSS3, Sass, Bootstrap, Foundation, AJAX, SVG \n Back-end development: Node.Js, PHP, C#, .NET MVC, Electron \n Programming paradigms: OOP, functional programming \n CMS: Joomla!, Wordpress \n OS: Linux, Windows \n Tools: git, Mercurial, Visual Studio, Webpack, npm, ESlint, Postcss
+
+u: (react) Francesco has done several projects in React. Some are daskboards for internal tools, some are public, like this product configurator (http://www.ledpedestriancrossing.com/configuratore/index.html) 
+
+?: PROGLANG (programming languages) Francesco is proficient in JavaScript, including ES6, CSS and HTML. He uses Python, C sharp and PHP as well.
+
+?: LANGUAGES (languages * speak) Francesco's mother tongue is Italian and he speaks English at a professional level.
+
+?: (languages) Do you mean programming languages?
+    a: ([~yes programming]) ^reuse(PROGLANG)
+    a: ([~no]) ^reuse(LANGUAGES)
+
+?: (frameworks) Francesco works with Redux and React beside jQuery for legacy projects. 
+
+?: (CSS) Francesco is a CSS master.
+
+?: (CMS) Francesco has worked with Joomla! and Wordpress 
+
+?: ([OS operating systems]) Francesco works with Linux and Windows 
+
+?: (programming paradigms) Francesco is confident both with OOP and functional programming
+
+?: (tools) The front end world gives us a new tool every day! However Francesco is confident with the usual front end tool chain based on things such as: Tools: git, Mercurial, Visual Studio, Webpack, npm, ESlint, Postcss...
+
