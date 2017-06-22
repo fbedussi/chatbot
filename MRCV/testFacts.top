@@ -1,0 +1,9 @@
+topic: ~dog keep repeat [dog]
+
+s: (I own dog) ^createfact(I own dog) Ok, got it
+
+?: (do you have a dog) Yes I have a dog
+
+?: (test) if (^query( direct_svo I own dog)) {Yes pippo} else {no pippo}
+
+u: (dog) dog is here!
